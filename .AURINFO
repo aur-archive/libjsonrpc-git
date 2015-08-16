@@ -1,0 +1,20 @@
+pkgbase = libjsonrpc-git
+	pkgdesc = C++ framework for json-rpc (json remote procedure call)
+	pkgver = 20141102
+	pkgrel = 1
+	url = https://github.com/cinemast/libjson-rpc-cpp
+	install = libjsonrpc-git.install
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = cmake
+	depends = curl
+	depends = argtable
+	depends = jsoncpp
+	optdepends = boost: automated tests
+	source = git://github.com/cinemast/libjson-rpc-cpp.git
+	sha256sums = SKIP
+
+pkgname = libjsonrpc-git
+
